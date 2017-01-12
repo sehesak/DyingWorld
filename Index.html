@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dying World</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div id="main">
+        <h1>Player</h1>
+        <p>Name: <span id="name"></span></p>
+        <p>
+            HP:
+            <span id="hp"></span>
+        </p>
+
+        <p>Attack: <span id="atk">
+        </span>
+        </p>
+
+        <h1>Monster</h1>
+        <p>Name: <span id="m-name">N/A</span></p>
+        <p>
+            HP:
+            <span id="m-hp">0</span>
+        </p>
+
+        <p>
+            Attack: <span id="m-atk">0</span>
+        </p>
+    </div>
+    <div>
+        <button id="btn-new" onclick="newMonster()">New Monster</button>
+        <button id="btn-atk" onclick="atack()" disabled>Atack</button>
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
